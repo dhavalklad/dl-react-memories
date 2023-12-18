@@ -1,0 +1,56 @@
+.memories_container-appbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gradient-bar);
+    /*border-radius: 10px;*/
+    padding: 0.5rem 1rem;
+}
+
+.memories_container-appbar_title {
+    display: flex;
+    align-items: center;
+}
+
+.memories_container-appbar_title h1 {
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 800;
+    margin-right: 1rem;
+}
+
+.memories_container-appbar_title img {
+    width: 45px;
+}
+
+.memories_container-appbar_actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.memories_container-appbar_actions a {
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+}
+.memories_container-appbar_actions a:last-child{
+    margin-left: 1rem;
+}
+
+.memories_container-appbar_actions a:hover,
+.memories_container-appbar_actions a.active{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.memories_container-appbar_actions .memories_container-appbar_actions-logout{
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    background: none;
+    border: none;
+}

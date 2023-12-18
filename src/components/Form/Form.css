@@ -1,0 +1,85 @@
+.memories_form-content {
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.memories_form-content h1 {
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.memories_form-content form {
+    width: 100%;
+}
+
+.memories_form-content form input {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+    font-size: 16px;
+    padding: 0.7rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+.memories_form-content form textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+    font-size: 16px;
+    padding: 0.7rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+.memories_form-content form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 800;
+    padding: 0.3rem 0.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.memories_form-content form button.active{
+    background: #0866ff;
+    color: #FFF;
+}
+.memories_form-img_tag {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.memories_form-img_tag img {
+    width: 200px;
+}
+
+.memories_form-img_tag button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent !important;
+    padding: 0 !important;
+    width: auto !important;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+.memories_form-img_tag button img {
+    width: 20px;
+}

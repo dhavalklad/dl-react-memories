@@ -1,0 +1,90 @@
+.memories_login_form-content {
+    background: #FFF;
+    width: 50%;
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.memories_login_form-title h1 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.memories_login_form-title p {
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.memories_login_form-container {
+    margin: 1.5rem 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.input-row {
+    margin-bottom: 1rem;
+}
+
+.input label {
+    font-family: var(--font-family);
+    font-size: 15px;
+    display: block;
+    padding: 0.5rem 0;
+}
+
+.input p {
+    font-family: var(--font-family);
+    font-size: 15px;
+    padding: 0.5rem 0;
+}
+
+
+.input input {
+    width: 100%;
+    font-family: var(--font-family);
+    font-size: 16px;
+    /*font-weight: 500;*/
+    padding: 0.7rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+.memories_login_form-container_button {
+    text-align: center;
+}
+
+.memories_login_form-container button {
+    width: 80%;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #0a66c2;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.memories_login_form-container button:disabled {
+    color: #000;
+    background: #bebebe;
+    cursor: not-allowed;
+}
+
+.memories_login_form-signup_action p {
+    font-family: var(--font-family);
+    font-size: 15px;
+}
+
+.memories_login_form-signup_action a {
+    color: #0a66c2;
+}

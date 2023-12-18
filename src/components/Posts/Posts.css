@@ -1,0 +1,28 @@
+.memories_container-content_info-text {
+    margin-bottom: 2rem;
+}
+
+.memories_container-content_info-text h1 {
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+}
+
+.info-text {
+    color: #485fc7 !important;
+}
+
+.memories_container-content_post_container_list {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+    /*row-gap: 1rem;*/
+    /*column-gap: 1rem;*/
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+

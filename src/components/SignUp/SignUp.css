@@ -1,0 +1,63 @@
+.memories_signup_form-content {
+    background: #FFF;
+    width: 40%;
+    margin: 1rem auto;
+    padding: 2rem 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.memories_signup_form-title h1 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.memories_signup_form-title p {
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.memories_signup_form-container {
+    margin: 1.5rem 0;
+}
+
+.memories_signup_form-container input {
+    width: 100%;
+    font-family: var(--font-family);
+    font-size: 16px;
+    /*font-weight: 500;*/
+    padding: 0.7rem 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+.memories_signup_form-container_button {
+    text-align: center;
+}
+
+.memories_signup_form-container button {
+    width: 80%;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #0a66c2;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+
+.memories_signup_form-signup_action p {
+    font-family: var(--font-family);
+    font-size: 15px;
+}
+
+.memories_signup_form-signup_action a {
+    color: #0a66c2;
+}

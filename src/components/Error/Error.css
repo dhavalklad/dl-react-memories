@@ -1,0 +1,13 @@
+.memories_error-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.memories_error-content h1 {
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFF;
+    margin: 1rem;
+}

@@ -1,0 +1,110 @@
+.memories_container-content_post_container_list-content {
+    /*flex: 1;*/
+    /*width: 48.4%;*/
+    background: #031B34;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    /*border: 1px solid #000;*/
+    /*box-shadow: 0 4px 12px rgba(0,0,0,0.15);*/
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.memories_post-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.memories_post-image {
+    /*flex: 1 0;*/
+    position: relative;
+}
+
+.memories_post-image_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+
+}
+
+.memories_post-image_title button {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: var(--font-family);
+    color: #FFF;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.memories_post-image_title h1 {
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.memories_post-image_title p {
+    font-family: var(--font-family);
+    font-size: 10px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.memories_post-content {
+    /*flex: 1;*/
+    background: #FFF;
+    padding: 1rem;
+    /*border-bottom-left-radius: 15px;*/
+    /*border-bottom-right-radius: 15px;*/
+}
+
+.memories_post-content h1 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 800;
+    margin: 1rem 0;
+}
+
+.memories_post-content p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.memories_post-content p:last-child {
+    margin-bottom: 1rem;
+}
+
+.memories_post-content_action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.memories_post-content_action button {
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 500;
+    color: #0866ff;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+}
+.memories_post-content_action span {
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 500;
+    color: #0866ff;
+}
